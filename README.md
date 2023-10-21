@@ -2,9 +2,13 @@
 
 This is my portfolio website made using React and Vite (see below)
 
+Click here --> https://leogratwick.pages.dev/
 
+Deployed with Cloudflare
 
-# React + Vite
+[comment]: <> (The netlify website: https://leogratwick.netlify.app/)
+
+<h2>React + Vite</h2>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
