@@ -1,0 +1,527 @@
+
+:root {
+  --yellow: #f8bc04;
+  --dark-orange: #a34321;
+  --burgandy: #530f1e;
+  --dark-blue: #051427;
+  --purple: #3d023b;
+  --black: #000000;
+ 
+}
+
+@keyframes starMovement {
+  0% {
+    background-position: 0 0; /* Start at the top */
+  }
+  100% {
+    background-position: 0 100%; /* End at the bottom */
+  }
+  
+}
+
+@keyframes shootingStar {
+  0% {
+    background-position: 0 5%; /* Start at the top */
+  }
+  50% {
+    background-position: -100% 150%; /* End at the bottom */
+  }
+  100%{
+    background-image: none;
+  }
+  
+}
+
+
+
+
+body{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: linear-gradient(to bottom, var(--dark-blue), var(--black));
+  /* Adjust colors and direction as needed */
+  width: 100%;
+  margin: 0;
+  
+  
+}
+
+.background-image{
+  background-image: url('./img/stars.png');
+  background-repeat: repeat;
+  margin:  0;
+  animation: starMovement 100s linear infinite;
+}
+
+.shooting-star{
+  background-image: url('./img/shootingStar.png');
+  background-repeat: repeat;
+  margin:  0;
+  animation: shootingStar 10s linear infinite;
+}
+
+h1{
+  font-size: 4em;
+
+}
+
+.scroll-button{
+  background: transparent;
+  border:  none;
+  padding: 10px;
+}
+
+.scroll-button:hover{
+  cursor: pointer;
+}
+
+.scroll-button-img{
+  width: 50px;
+}
+
+.skill-title {
+  color: var(--dark-blue);
+  background-color: var(--yellow) ;
+  border-radius: 20px;
+  text-align : center;
+  width: 300px;
+  margin: 5px;
+  padding: 5px 20px;
+  
+}
+
+
+.skill-description {
+  display: flex;
+  color: var(--dark-blue);
+  background-color: var(--yellow) ;
+  border-radius: 20px;
+  text-align : center;
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  margin: 0 0 15px 0;
+  line-height: 23px;
+  justify-content: center; 
+  align-items: center;
+  font-size: medium;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-list-container {
+  display: grid;
+  flex-wrap: wrap;
+  width: 1050px;
+  flex: none;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  grid-template-columns: repeat( 300px);
+  grid-auto-flow: column;
+}
+
+.skill-list-container::-webkit-scrollbar{
+  display: none;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+  
+}
+
+.avatar-img{
+  width: 40%;
+}
+
+.about-me-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 100px 50px;
+  padding-bottom: 100px;
+}
+
+.about-me-title{
+  color: var(--yellow);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+
+
+.about-me-description{
+  color: var(--dark-orange);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  max-width: 500px;
+  
+}
+
+.about-me-name-description{
+  font-size: x-large;
+  margin: 0 20px;
+}
+
+.project-title {
+  color: var(--dark-orange);
+  outline: 2px solid ;
+  border-radius: 20px 20px 0 0;
+  text-align : center;
+  width: 300px;
+  margin: 5px;
+  margin-bottom: 0;
+  padding: 5px 20px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.project-description {
+  display: flex;
+  color: var(--dark-blue);
+  background-color: var(--dark-orange) ;
+  text-align : center;
+  width: 304px;
+  height: 200px;
+  padding: 20px;
+  margin: 0 ;
+  line-height: 23px;
+  justify-content: center; 
+  align-items: center;
+  font-size: large;
+
+}
+
+.project-link {
+  color: var(--dark-orange);
+  outline: 2px solid ;
+  border-radius: 0 0 20px 20px;
+  text-align : center;
+  width: 300px;
+  margin: 5px;
+  margin-top: 0;
+  padding: 5px 20px;
+  text-decoration: none; 
+  font-weight: 600;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.project-list-container {
+  display: grid;
+  flex-wrap: wrap;
+  width: 1050px;
+  flex: none;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  grid-template-columns: repeat( 300px);
+  grid-auto-flow: column;
+}
+
+.project-list-container::-webkit-scrollbar {
+  display: none;
+}
+
+
+.project-link:hover {
+  color: var(--dark-blue);
+  outline: 2px solid var(--dark-orange);
+  background-color: var(--dark-orange);
+
+}
+
+.contact--form--container{
+  color: white;
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 0 100px;
+  margin-bottom: 50px;
+  
+}
+
+.details-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  gap: 10px;
+
+}
+
+.contact-label{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-input{
+  width: 15vw;
+  height: 300%;
+  background-color: rgba(0,0,0,0);
+  color: white;
+  border-radius: 1em;
+  padding: 10px;
+
+}
+
+.message-and-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.message{
+  height: 300px;
+
+}
+
+
+
+.contact-form-img,
+.contact-form-img-container{
+  width: 100%;
+  padding: 0 80px ;
+}
+
+.btn{
+  background: transparent;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: #ffffff28;
+}
+
+.section-title{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.contact-title{
+  margin:  80px 0;
+}
+
+.skills-title{
+  color: var(--yellow);
+}
+
+.projects-title{
+  color: var(--dark-orange);
+
+}
+
+.navbar-list{
+  display: flex;
+  justify-content: center;
+  color:  var(--yellow);
+  list-style: none ;
+  gap: 2px;
+  margin-top: 30px;
+}
+
+.navbar--content{
+  padding: 10px;
+  font-size: x-large;
+}
+
+.navbar--content:hover{
+  cursor: pointer;
+  background-color: #ffffff25;
+  border-radius: 10px;
+
+}
+
+
+
+.footer-img{
+  width: 100%;
+}
+
+.footer-img-div{
+  height: 0;
+
+}
+
+.footer-navbar{
+  display: flex;
+  justify-content: center;
+  list-style: none ;
+  gap: 2px;
+  margin-top: 30px;
+  color: black;
+}
+
+.navbar-content-footer{
+  padding: 10px;
+  font-size: x-large;
+}
+
+.navbar-content-footer:hover{
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #00000015;
+}
+
+.footer{
+  color: black;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ;
+}
+
+.footer-container{
+  background-image: url('./img/cloudOutline.png');
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media (max-width: 1065px) {
+  .about-me-title {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+  .about-me-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+
+  }
+  .avatar-img{
+    width: 400px;
+  }
+
+  .about-me-name-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    
+  }
+
+  .skill-list-container,
+  .project-list-container{
+    
+    width:  350px;
+  }
+  
+  
+ 
+  .container{
+    transform: scale(1.5);
+    margin-bottom: 200px;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact--form--container,
+  .contact-input,
+  .btn{
+    font-size: xx-large;
+    margin-bottom: 0;
+  }
+
+  
+  .contact-label{
+    height: 50%;
+    
+  }
+
+  .contact-input{
+    width: 50vw;
+  }
+
+  .message{
+    width: 50vw;
+  }
+
+  .contact--form--container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+  }
+  
+  .details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+  
+  }
+  
+  .contact-label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+
+  .contact-title{
+    margin:  0  0 80px 0;
+  }
+
+  .contact-form-img{
+    width: 40vw;
+    padding: 80px ;
+    padding-bottom: 30px;
+  }
+  
+  .contact-form-img-container{
+    padding:  0  0  0 ;
+  }
+
+  .section-title{
+    padding: 100px;
+  }
+  .projects-title{
+    margin-bottom: 30px;
+  }
+
+  .shooting-star{
+    background-image: url('./img/shootingStarMobile.png');
+  }
+
+  .about-me-container{
+    padding-bottom: 0;
+  }
+}
