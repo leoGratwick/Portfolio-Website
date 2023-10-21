@@ -231,6 +231,7 @@ h1{
   color: var(--dark-blue);
   outline: 2px solid var(--dark-orange);
   background-color: var(--dark-orange);
+  text-shadow: none;
 
 }
 

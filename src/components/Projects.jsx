@@ -35,7 +35,7 @@ const Projects = () => {
               <h2 className="project-title">{item.title}</h2>
               <p className="project-description"> {item.description}</p>
               <a className="project-link" href={item.link}>
-                Github
+                Go to GitHub
               </a>
             </div>
           ))}

@@ -32,7 +32,7 @@
         {
             "id": "1",
             "title": "Tower Defence Game",
-            "description": "As a personal passion project, I developed a tower defense game using the open-source game engine Godot, utilizing GDScript, a language that bears a striking resemblance to Python. In the game, you need to defend your home from slime enemies by placing turrets, while budgeting your money carefully. While the game currently features just one level, I have plans to incorporate more levels in the future. If you'd like to give it a try, you can play the game online without the need for downloads by following the link provided on the GitHub repository.",
+            "description": "As a personal passion project, I developed a tower defense game using the open-source game engine Godot, utilizing GDScript, a language similar Python. While the game currently features just one level, I have plans to add more levels in the future. You can play the game online without the need for downloads by following the link provided on the GitHub repository.",
             "link": "https://github.com/leoGratwick/Tower-Defence-Game"
         },
         {
@@ -45,7 +45,7 @@
             "id": "3",
             "title": "This Website",
             "description": "I developed the website you are currently browsing, crafted with React JS, CSS, and HTML. Building this website was a lot of fun, and it also provided me with valuable insights into React development. I hope you like it!",
-            "link": ""
+            "link": "https://github.com/leoGratwick/Portfolio-Website"
         },
         {
             "id": "4",
