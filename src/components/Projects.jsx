@@ -34,7 +34,7 @@ const Projects = () => {
             <div key={index} className="skill-container">
               <h2 className="project-title">{item.title}</h2>
               <p className="project-description"> {item.description}</p>
-              <a className="project-link" href={item.link}>
+              <a className="project-link" href={item.link} target="_blank">
                 Go to GitHub
               </a>
             </div>
