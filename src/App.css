@@ -526,4 +526,12 @@ h1{
   .about-me-container{
     padding-bottom: 0;
   }
+
+  .project-description{
+    height: 200px;
+  }
+
+  .skill-description{
+    height: 250px;
+  }
 }
