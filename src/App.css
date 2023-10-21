@@ -46,14 +46,14 @@ body{
 }
 
 .background-image{
-  background-image: url('./img/stars.png');
+  background-image: url('../../img/stars.png');
   background-repeat: repeat;
   margin:  0;
   animation: starMovement 100s linear infinite;
 }
 
 .shooting-star{
-  background-image: url('./img/shootingStarMobile.png');
+  background-image: url('../../img/shootingStarMobile.png');
   background-repeat: repeat;
   margin:  0;
   animation: shootingStar 10s linear infinite;
@@ -522,9 +522,6 @@ h1{
     margin-bottom: 30px;
   }
 
-  .shooting-star{
-    background-image: url('./img/shootingStarMobile.png');
-  }
 
   .about-me-container{
     padding-bottom: 0;
