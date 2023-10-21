@@ -534,4 +534,9 @@ h1{
   .skill-description{
     height: 250px;
   }
+  .navbar-content-footer,
+  .navbar--content{
+    font-size: xx-large;
+  }
+  
 }
