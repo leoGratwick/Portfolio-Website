@@ -53,7 +53,7 @@ body{
 }
 
 .shooting-star{
-  background-image: url('./img/shootingStar.png');
+  background-image: url('./img/shootingStarMobile.png');
   background-repeat: repeat;
   margin:  0;
   animation: shootingStar 10s linear infinite;
@@ -121,6 +121,8 @@ h1{
   scroll-behavior: smooth;
   grid-template-columns: repeat( 300px);
   grid-auto-flow: column;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .skill-list-container::-webkit-scrollbar{
@@ -220,6 +222,8 @@ h1{
   scroll-behavior: smooth;
   grid-template-columns: repeat( 300px);
   grid-auto-flow: column;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .project-list-container::-webkit-scrollbar {
