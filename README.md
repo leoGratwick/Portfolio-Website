@@ -2,7 +2,7 @@
 
 This is my portfolio website made using React and Vite (see below)
 
-Click here --> https://leogratwick.pages.dev/
+Click here --> <a target="_blank"> https://leogratwick.pages.dev/ </a>
 
 Deployed with Cloudflare
 
