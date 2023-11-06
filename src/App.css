@@ -123,6 +123,7 @@ h1{
   grid-auto-flow: column;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  scroll-snap-type: mandatory;
 }
 
 .skill-list-container::-webkit-scrollbar{
@@ -224,6 +225,7 @@ h1{
   grid-auto-flow: column;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  scroll-snap-type: mandatory;
 }
 
 .project-list-container::-webkit-scrollbar {
