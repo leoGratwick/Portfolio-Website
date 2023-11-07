@@ -37,8 +37,9 @@
 
 body{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background: linear-gradient(to bottom, var(--dark-blue), var(--black));
-  /* Adjust colors and direction as needed */
+  background: #000000;
+  background-image: linear-gradient(to bottom, #051427, #000000);
+  background-size: 101% 100%;
   width: 100%;
   margin: 0;
   

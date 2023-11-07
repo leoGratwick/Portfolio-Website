@@ -13,16 +13,16 @@ function App() {
 
   return (
     <>
-    <body className="background-image">
-      <body className="shooting-star">
+    <div className="background-image">
+      <div className="shooting-star">
       <NavBar type="navbar-list" contentType="navbar--content"/>
       <AboutMe />
       <Skills/>
       <Projects/>
       <ContactMe/>
       <Footer/>
-      </body>
-    </body>
+      </div>
+    </div>
     </>
   );
 }
