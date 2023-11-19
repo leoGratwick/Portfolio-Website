@@ -3,7 +3,7 @@
         {
             "id": "1",
             "title": "Python",
-            "description": "I possess advanced proficiency in Python, demonstrated by my successful completion of my latest project, a weather app that combines web scraping with the utilisationg of the Kivy GUI framework. I also completed my computer science A-level coursework and exam using Python. Here's a fun fact: Python happened to be the very first programming language I learned and it's also my favorite."
+            "description": "I possess advanced proficiency in Python, demonstrated by my successful completion of my latest project, a weather app that combines web scraping with the utilisation of the Kivy GUI framework. I also completed my computer science A-level coursework and exam using Python. Here's a fun fact: Python happened to be the very first programming language I learned and it's also my favorite."
         },
         {
             "id": "2",
@@ -12,7 +12,7 @@
         },
         {
             "id": "3",
-            "title": "Recat JS, HTML & CSS",
+            "title": "React JS, HTML & CSS",
             "description": "I possess proficient knowledge of React JS, HTML, and CSS, which is evidenced by the successful completion of two projects I've undertaken using these languages: my Chrome extension and this website. Furthermore, I currently have other projects in progress that also leverage these technologies."
         },
         {
