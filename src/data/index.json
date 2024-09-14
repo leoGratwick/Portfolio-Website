@@ -31,30 +31,36 @@
     "projects": [
         {
             "id": "1",
-            "title": "Weather App",
-            "description": "My latest project involves developing a weather app in Python using KivyMD. I've successfully integrated it with web scraping to retrieve weather data from various websites and display it seamlessly. I thoroughly enjoyed working with Kivy and have already laid out plans for future projects utilizing this framework.",
-            "link": "https://github.com/leoGratwick/Weather-App"
+            "title": "Quiz Website",
+            "description": "A full-stack web application where users can log in, take quizzes, and track their high scores. Built with ReactJS and AWS services including Amplify for hosting, Cognito for authentication, API Gateway, and DynamoDB for managing quiz data.",
+            "link": "https://github.com/leoGratwick/amplify-cognito-quiz-app"
         },
         {
             "id": "2",
+            "title": "Weather App",
+            "description": "This project involves developing a weather app in Python using KivyMD. I've successfully integrated it with web scraping to retrieve weather data from various websites and display it seamlessly. I thoroughly enjoyed working with Kivy and have already laid out plans for future projects utilizing this framework.",
+            "link": "https://github.com/leoGratwick/Weather-App"
+        },
+        {
+            "id": "3",
             "title": "Tower Defence Game",
             "description": "As a personal passion project, I developed a tower defense game using the open-source game engine Godot, utilizing GDScript, a language similar Python. While the game currently features just one level, I have plans to add more levels in the future. You can play the game online without the need for downloads by following the link provided on the GitHub repository.",
             "link": "https://github.com/leoGratwick/Tower-Defence-Game"
         },
         {
-            "id": "3",
+            "id": "4",
             "title": "Chrome Extension",
             "description": "Recently I developed a Google Chrome extension that allows users to customize website text fonts and colors. This project was created using plain JavaScript, HTML, and CSS.",
             "link": "https://github.com/leoGratwick/Font-Changer-Extension"
         },
         {
-            "id": "4",
+            "id": "5",
             "title": "This Website",
             "description": "I developed the website you are currently browsing, crafted with React JS, CSS, and HTML. Building this website was a lot of fun, and it also provided me with valuable insights into React development. I hope you like it!",
             "link": "https://github.com/leoGratwick/Portfolio-Website"
         },
         {
-            "id": "5",
+            "id": "6",
             "title": "Platformer Game",
             "description": "For my A-level coursework, I created a 2D platformer game using Python and the Pygame library. In this game, you take on the role of a small dinosaur, navigating through the levels to collect gems that enhance your character's statistics. Your objective is to defeat enemies and progress to the next level, all while striving to achieve the highest possible score.",
             "link": "https://github.com/leoGratwick/Dino-Game"
